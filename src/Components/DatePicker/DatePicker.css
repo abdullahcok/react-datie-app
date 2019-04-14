@@ -1,0 +1,75 @@
+.DatePickerContainer{
+      max-width: 500px;
+      background-color: #fff;
+      padding: 10px;
+      box-shadow: 0 0 0 1px rgba(63, 63, 60, 0.05),
+                              0 1px 3px 0 rgba(63, 63, 60, 0.15);
+}
+
+.DatePickerContainer__Title{
+      font-size: 1.2rem;
+      color: #4f4f4f;
+}
+
+.DatePickerContainer__Title{
+      font-size: 1.2rem;
+      color: #4f4f4f;
+}
+
+.WeekdaysContainer{
+      display: flex;
+}
+
+.Weekdays{
+      display: block;
+      flex: 1 0 0%;
+      padding: 0.8rem;
+      background: transparent;
+      font-size: 1.2rem;
+      color: #637381;
+      text-align: center;
+}
+
+.Weeks{
+      display: flex;
+}
+
+.Day--selected{
+    background: #001545;
+    border: 1px solid #4c6ac4;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #ffff2b;
+    width: calc(100%/7);
+    font-size: 1.5rem;
+}
+
+.Day--hovering{
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+}
+
+.EmptyStateDays{
+      display: block;
+      flex: 1 0 0%;
+      width: calc(100%/7);
+      margin: 0;
+      padding: 0.8rem;
+      border: 1px solid #dfe3e8;
+}
+
+.Days{
+      margin-left: -1px;
+      display: block;
+      flex: 1 0 0%;
+      width: calc(100%/7);
+      margin: 0;
+      padding: 0.8rem;
+      background: transparent;
+      border: 1px solid #dfe3e8;
+      border-radius: 0;
+      outline: none;
+      font-size: 1.2rem;
+      text-align: center;
+      cursor: pointer;
+}
